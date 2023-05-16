@@ -30,7 +30,7 @@ export default function Mapping() {
         Next
       </Button>
       <div sx={{ m: 2 }}>
-        {setFirstNum.map((item, i) => (
+        {firstNum.map((item, i) => (
           <Button variant="contained" key={i} sx={{ m: 1 }}>
             {item}
           </Button>
